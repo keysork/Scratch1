@@ -1,0 +1,129 @@
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for the body of the page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-image: url('purple back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header Section */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Navigation Menu */
+.leftmenu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leftmenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.leftmenu a:hover {
+    color: #3498db;
+}
+
+/* Main Content Section */
+main {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.section-heading {
+    font-size: 28px;
+    color: #333;
+}
+
+/* Resume List Styling */
+ul, ol {
+    padding-left: 20px; /* Standard indentation for both unordered and ordered lists */
+    margin-left: 0;
+    list-style-position: outside; /* Aligns bullets outside the list items */
+}
+
+ul.general-list, ul.resume-list {
+    list-style-type: disc; /* Ensures that unordered lists show a standard bullet */
+}
+
+ul.general-list li,
+ul.resume-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+ol {
+    padding-left: 40px; /* Add some extra indentation for nested ordered lists */
+}
+
+ol li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+}
+
+/* Video Section Styling */
+.video-wrapper {
+    margin-top: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.tableau-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px; /* Reduced the space below the tableau */
+    text-align: center;
+}
+
+.video-title, .tableau-title {
+    text-align: left;
+    font-size: 24px;
+    margin: 2px 0 2px 0; /* Reduced top and bottom margins to minimize space */
+}
